@@ -1,11 +1,17 @@
 // function to generate markdown for README
 function generateMarkdown(userInputs) {
-  return `
-  # ${userInputs.title}
-  ## ${userInputs.license}
-  `;
+  let toC = "## Table of Contents";
   
 
+
+  let markdownTemplate = 
+  `# ${userInputs.title}
+
+  ## Descripton
+  ${userInputs.description}
+
+  `;
+  return markdownTemplate;
 }
 
 module.exports = generateMarkdown;

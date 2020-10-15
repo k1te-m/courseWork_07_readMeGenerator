@@ -67,14 +67,13 @@ function writeToFile(fileName, data) {
         if (error) {
             return console.log(error);
         } 
-        console.log("Success.");
+        console.log("Success... Generating your README.md file.");
     })
 };
 
 // function to initialize program
 function init() {
     const userResponse = inquirer.prompt(questions).then(userInputs => {
-        console.log(userInputs.title);
         const markdown = generateMarkdown(userInputs);
         console.log(markdown);
         writeToFile("TESTREADME.md", markdown);
