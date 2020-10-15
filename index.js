@@ -75,7 +75,6 @@ function writeToFile(fileName, data) {
 function init() {
     const userResponse = inquirer.prompt(questions).then(userInputs => {
         const markdown = generateMarkdown(userInputs);
-        console.log(markdown);
         writeToFile("TESTREADME.md", markdown);
     });
     

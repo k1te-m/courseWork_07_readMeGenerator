@@ -1,37 +1,42 @@
 
-  # test
+  # Test
 
   ## Descripton
-  test
+  Test
 
-  
+  ## Table of Contents
+    *[Installation](#installation)
+    *[Usage](#usage)
+    *[Contributing](#contributing)
+    *[Tests](#tests)
+    *[Questions](#questions)
 
   ## Installation 
     
   *Steps required to install package:* 
     
-  test
+  Test
 
   ## Usage
 
   *Examples of project use:*
 
-  test
+  Test
 
   ## Contributing
 
   *If you are interested in contributing to this project, please follow the below instructions:*
 
-  test
+  Test
 
   ## Tests
 
   *Application tests and instructions for them:*
 
-  test
+  Test
 
   ## Questions
 
   *If you have any questions regarding this application, please utilize the below contact information:*
 
-  test
+  Test
