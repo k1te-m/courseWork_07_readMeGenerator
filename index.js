@@ -1,3 +1,6 @@
+const inquirer = require("inquirer");
+const fs = require("fs");
+
 // array of questions for user (title, description, table of contents, installation, usage, license, contributing, tests, and questions)
 const questions = [
     {
@@ -58,10 +61,18 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-}
+    fs.writeFile("README.md", data, function(error) {
+        if (error) {
+            return console.log(error);
+        } 
+        console.log("Success.");
+    })
+};
 
 // function to initialize program
 function init() {
+    inquirer
+        .prompt(questions);
 
 }
 
