@@ -1,1 +1,2 @@
-# courseWork_07_readMeGenerator
+
+{"username":"k1te-m","repo":"courseWork_07_readMeGenerator","title":"ReadMe Generator - Node","description":"Test","installation":"Test","usage":"Test","license":"MIT License","contributing":"Test","tests":"Test","questions":"Test"}
