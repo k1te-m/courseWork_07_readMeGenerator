@@ -73,7 +73,6 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions);
-
 }
 
 // function call to initialize program
