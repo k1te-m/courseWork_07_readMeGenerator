@@ -1,2 +1,1 @@
-
-{"username":"k1te-m","repo":"courseWork_07_readMeGenerator","title":"ReadMe Generator - Node","description":"Test","installation":"Test","usage":"Test","license":"MIT License","contributing":"Test","tests":"Test","questions":"Test"}
+{"username":"k1te-m","repo":"@k1te-m","title":"9e8bf33","description":"user inputs are now stored to the readme file","installation":"","usage":"","license":"GNU AGPLv3","contributing":"","tests":"","questions":""}
