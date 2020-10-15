@@ -33,6 +33,17 @@ function generateMarkdown(userInputs) {
 
   ${userInputs.usage}`
   };
+
+  if (userInputs.contributing !== "") {
+  markdownTemplate +=
+  `
+
+  ## Contributing
+
+  *If you are interested in contributing to this project, please follow the below instructions:*
+
+  ${userInputs.contributing}`
+  };
   
   
   
