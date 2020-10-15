@@ -39,4 +39,6 @@
 
   *If you have any questions regarding this application, please utilize the below contact information:*
 
-  Test
+  Email: Test
+  GitHub Profile: [GitHub Profile:](https://www.github.com/k1te-m)
+  
