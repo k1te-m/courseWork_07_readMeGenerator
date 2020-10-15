@@ -23,7 +23,16 @@ function generateMarkdown(userInputs) {
   ${userInputs.installation}`
   };
 
-  
+  if (userInputs.usage !== "") {
+  markdownTemplate +=
+  `
+
+  ## Usage
+
+  *Examples of project use:*
+
+  ${userInputs.usage}`
+  };
   
   
   
