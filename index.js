@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("generateMarkdown");
 
 // array of questions for user (title, description, table of contents, installation, usage, license, contributing, tests, and questions)
 const questions = [
