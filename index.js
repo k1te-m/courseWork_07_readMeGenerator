@@ -71,9 +71,12 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer
-        .prompt(questions);
+    const userInputs = inquirer.prompt(questions).then(function(response) {
+        console.log(response);
+        writeToFile("README.md", JSON.stringify(response));
+    });
 }
 
 // function call to initialize program
 init();
+
