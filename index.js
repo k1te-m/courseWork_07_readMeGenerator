@@ -28,12 +28,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please describe the installation steps required for your project.",
+        message: "If necessary, please describe the installation steps required for your project.",
         name: "installation"
     },
     {
         type: "input",
-        message: "Please provide any examples of how to use your project.",
+        message: "If applicable, please provide any examples of how to use your project.",
         name: "usage"
     },
     {
@@ -44,7 +44,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "How can other developers contribute to your project?",
+        message: "If applicable, how can other developers contribute to your project?",
         name: "contributing"
     },
     {
@@ -54,7 +54,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please provide your email address for any questions users may have.",
+        message: "If desired, please provide your email address for any questions users may have.",
         name: "questions"
     }
 ];
@@ -67,14 +67,13 @@ function writeToFile(fileName, data) {
         if (error) {
             return console.log(error);
         } 
-        console.log("Success.");
+        console.log("Success... Generating your README.md file.");
     })
 };
 
 // function to initialize program
 function init() {
     const userResponse = inquirer.prompt(questions).then(userInputs => {
-        console.log(userInputs.title);
         const markdown = generateMarkdown(userInputs);
         console.log(markdown);
         writeToFile("TESTREADME.md", markdown);
