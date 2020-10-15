@@ -44,6 +44,17 @@ function generateMarkdown(userInputs) {
 
   ${userInputs.contributing}`
   };
+
+  if (userInputs.tests !== "") {
+  markdownTemplate +=
+  `
+
+  ## Tests
+
+  *Application tests and instructions for them:*
+
+  ${userInputs.tests}`
+  };
   
   
   
