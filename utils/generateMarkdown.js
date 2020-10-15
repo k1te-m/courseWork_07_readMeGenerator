@@ -36,6 +36,9 @@ function generateMarkdown(userInputs) {
   ${userInputs.description}
 
   `;
+
+  //Add table of contents after Description Section
+  markdownTemplate += toC;
   
   //Generate markdown for installation if entered by user
   if (userInputs.installation !== "") {
