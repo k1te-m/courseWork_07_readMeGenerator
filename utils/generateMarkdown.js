@@ -27,6 +27,8 @@ function generateMarkdown(userInputs) {
   let markdownTemplate = `
   # ${userInputs.title}
 
+  ![GitHub](https://img.shields.io/github/license/${userInputs.username}/${userInputs.repo})
+
   ## Descripton
   ${userInputs.description}
 
@@ -116,3 +118,6 @@ function generateMarkdown(userInputs) {
 }
 
 module.exports = generateMarkdown;
+
+
+
