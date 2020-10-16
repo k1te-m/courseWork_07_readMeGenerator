@@ -104,7 +104,7 @@ function generateMarkdown(userInputs) {
 
   *If you have any questions regarding this application, please utilize the below contact information:*
 
-  [Email](mailto:${userInputs.questions})
+  [${userInputs.questions}](mailto:${userInputs.questions})
   
   [GitHub Profile](https://www.github.com/${userInputs.username})
   `
