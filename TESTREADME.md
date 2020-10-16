@@ -5,15 +5,22 @@
   Test
 
   ## Table of Contents
-    [Installation](#installation)
-    [Contributing](#contributing)
-    [Tests](#tests)
-    [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Installation 
     
   *Steps required to install package:* 
     
+  Test
+
+  ## Usage
+
+  *Examples of project use:*
+
   Test
 
   ## Contributing
