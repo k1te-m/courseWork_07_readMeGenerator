@@ -27,7 +27,7 @@ function generateMarkdown(userInputs) {
   let markdownTemplate = `
   # ${userInputs.title}
 
-  ![GitHub](https://img.shields.io/github/license/${userInputs.username}/${userInputs.repo})
+  ![GitHub](https://img.shields.io/github/license/${userInputs.username}/${userInputs.repo})![GitHub top language](https://img.shields.io/github/languages/top/${userInputs.username}/${userInputs.repo})
 
   ## Descripton
   ${userInputs.description}
