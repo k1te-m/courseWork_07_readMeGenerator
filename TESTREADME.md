@@ -1,8 +1,8 @@
 
-  # License
+  # Test
 
   ## Descripton
-  License
+  Test
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,25 +15,25 @@
     
   *Steps required to install package:* 
     
-  License
+  Test
 
   ## Usage
 
   *Examples of project use:*
 
-  License
+  Test
 
   ## Contributing
 
   *If you are interested in contributing to this project, please follow the below instructions:*
 
-  License
+  Test
 
   ## Tests
 
   *Application tests and instructions for them:*
 
-  License
+  Test
 
   ## License
 
@@ -44,7 +44,7 @@
 
   *If you have any questions regarding this application, please utilize the below contact information:*
 
-  [Email](mailto:License)
+  [Test](mailto:Test)
   
   [GitHub Profile](https://www.github.com/k1te-m)
   
