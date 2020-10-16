@@ -1,8 +1,8 @@
 
-  # Test
+  # License
 
   ## Descripton
-  Test
+  License
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,31 +15,36 @@
     
   *Steps required to install package:* 
     
-  Test
+  License
 
   ## Usage
 
   *Examples of project use:*
 
-  Test
+  License
 
   ## Contributing
 
   *If you are interested in contributing to this project, please follow the below instructions:*
 
-  Test
+  License
 
   ## Tests
 
   *Application tests and instructions for them:*
 
-  Test
+  License
+
+  ## License
+
+  GNU AGPLv3
+  
 
   ## Questions
 
   *If you have any questions regarding this application, please utilize the below contact information:*
 
-  [Email](mailto:Test)
+  [Email](mailto:License)
   
   [GitHub Profile](https://www.github.com/k1te-m)
   
