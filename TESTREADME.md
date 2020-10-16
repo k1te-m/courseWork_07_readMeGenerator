@@ -39,7 +39,7 @@
 
   *If you have any questions regarding this application, please utilize the below contact information:*
 
-  Email: <mailto: Test
+  [Email](mailto:Test)
   
-  ![GitHub Profile:](https://www.github.com/k1te-m)
+  [GitHub Profile](https://www.github.com/k1te-m)
   
