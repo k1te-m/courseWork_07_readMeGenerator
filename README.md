@@ -22,8 +22,6 @@
 
   *Examples of project use:*
 
-  Please see the video below:
-
   ![DEMO](assets/README_Generator_Demo_GIF.gif)
 
   ## Contributing
