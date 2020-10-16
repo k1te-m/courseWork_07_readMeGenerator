@@ -71,9 +71,11 @@ function writeToFile(fileName, data) {
     })
 };
 
-// function to initialize program
+// function to initialize program, uses inquirer to prompt via command line then creates variable for generateMarkdown function from utils with userInputs passed through as argument to be used in write to file function
 function init() {
-    const userResponse = inquirer.prompt(questions).then(userInputs => {
+    inquirer
+    .prompt(questions)
+    .then(userInputs => {
         const markdown = generateMarkdown(userInputs);
         writeToFile("TESTREADME.md", markdown);
     });
