@@ -4,7 +4,7 @@
   ## Descripton
   Test
   
-  ![NPM](https://img.shields.io/npm/l/express)
+  ![GitHub](https://img.shields.io/github/license/k1te-m/courseWork_07_readMeGenerator)
 
   ## Table of Contents
   * [Installation](#installation)
