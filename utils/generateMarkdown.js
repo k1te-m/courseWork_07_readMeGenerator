@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(userInputs) {
-  let toC = "## Table of Contents";
+  let toC = `## Table of Contents`;
 
   if (userInputs.installation !== "") { 
     toC += `

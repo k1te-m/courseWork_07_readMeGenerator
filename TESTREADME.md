@@ -6,7 +6,6 @@
 
   ## Table of Contents
     [Installation](#installation)
-    [Usage](#usage)
     [Contributing](#contributing)
     [Tests](#tests)
     [Questions](#questions)
@@ -15,12 +14,6 @@
     
   *Steps required to install package:* 
     
-  Test
-
-  ## Usage
-
-  *Examples of project use:*
-
   Test
 
   ## Contributing
