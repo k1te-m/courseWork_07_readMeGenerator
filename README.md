@@ -22,10 +22,10 @@
 
   *Examples of project use:*
 
-  ![DEMO](assets/README_Generator_Demo_GIF.gif)
+  ![Demo](assets/README_Generator_Demo_GIF.gif)
   
   *Link to video:*
-  [DEMOVid](https://drive.google.com/file/d/1OwVSuL9prGJ7swX0oI11ToC7GjbciFfT/view)
+  [Demo](https://drive.google.com/file/d/1OwVSuL9prGJ7swX0oI11ToC7GjbciFfT/view)
 
   ## Contributing
 
