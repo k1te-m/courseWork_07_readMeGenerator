@@ -1,7 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(userInputs) {
   let toC = `## Table of Contents`;
-
+  //Conditions for building the table of contents
   if (userInputs.installation !== "") { toC += `
   * [Installation](#installation)` 
   };
@@ -23,7 +23,7 @@ function generateMarkdown(userInputs) {
   };
   
 
-  //Generate markdown for title/description sections
+  //Generate markdown for title/description sections with badges
   let markdownTemplate = `
   # ${userInputs.title}
 
