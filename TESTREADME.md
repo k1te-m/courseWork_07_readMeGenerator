@@ -1,52 +1,21 @@
 
-  # README.md Generator - Node
+  # README Generator - Node
 
   ![GitHub](https://img.shields.io/github/license/k1te-m/courseWork_07_readMeGenerator)
 
   ## Descripton
-  Test
+  A command line application that takes user inputs to create a professional README file for your repository.
 
   ## Table of Contents
   * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
 
   ## Installation 
     
   *Steps required to install package:* 
     
-  Test
-
-  ## Usage
-
-  *Examples of project use:*
-
-  Test
-
-  ## Contributing
-
-  *If you are interested in contributing to this project, please follow the below instructions:*
-
-  Test
-
-  ## Tests
-
-  *Application tests and instructions for them:*
-
-  Test
+  The only required step is to navigate to your integrated terminal and enter npm i. 
 
   ## License
 
   MIT License
-  
-
-  ## Questions
-
-  *If you have any questions regarding this application, please utilize the below contact information:*
-
-  [Test](mailto:Test)
-  
-  [GitHub Profile](https://www.github.com/k1te-m)
   
