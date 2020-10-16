@@ -85,6 +85,15 @@ function generateMarkdown(userInputs) {
   ${userInputs.tests}`
   };
 
+  //Generate markdown for the license section
+  markdownTemplate +=
+  `
+
+  ## License
+
+  ${userInputs.license}
+  `;
+
 
   //Generate markdown for questions if entered by user (email reference https://gitlab.com/gitlab-org/gitlab-foss/-/issues/57185)
   if (userInputs.questions !== "") {
@@ -101,10 +110,6 @@ function generateMarkdown(userInputs) {
   `
   };
   
-  
-  
-
-
 
   //returns the markdown template
   return markdownTemplate;
