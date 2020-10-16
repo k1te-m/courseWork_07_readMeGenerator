@@ -4,27 +4,27 @@ function generateMarkdown(userInputs) {
 
   if (userInputs.installation !== "") { 
     toC += `
-    *[Installation](#installation)` 
+    [Installation](#installation)` 
   };
 
   if (userInputs.usage !== "") {
     toC += `
-    *[Usage](#usage)`
+    [Usage](#usage)`
   };
 
   if (userInputs.contributing !== "") {
     toC += `
-    *[Contributing](#contributing)`
+    [Contributing](#contributing)`
   };
   
   if (userInputs.tests !== "") {
     toC += `
-    *[Tests](#tests)`
+    [Tests](#tests)`
   };
 
   if (userInputs.questions !== "") {
     toC += `
-    *[Questions](#questions)`
+    [Questions](#questions)`
   };
   
 
