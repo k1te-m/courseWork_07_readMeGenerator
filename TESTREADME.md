@@ -1,5 +1,7 @@
 
-  # Test
+  # README.md Generator - Node
+
+  ![GitHub](https://img.shields.io/github/license/k1te-m/courseWork_07_readMeGenerator)
 
   ## Descripton
   Test
@@ -37,7 +39,7 @@
 
   ## License
 
-  GNU AGPLv3
+  MIT License
   
 
   ## Questions
