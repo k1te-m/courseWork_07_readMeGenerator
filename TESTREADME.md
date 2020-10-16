@@ -35,11 +35,16 @@
 
   Test
 
+  ## License
+
+  GNU AGPLv3
+  
+
   ## Questions
 
   *If you have any questions regarding this application, please utilize the below contact information:*
 
-  [Email](mailto:Test)
+  [Test](mailto:Test)
   
   [GitHub Profile](https://www.github.com/k1te-m)
   
