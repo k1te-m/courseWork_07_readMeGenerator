@@ -1,30 +1,25 @@
 // function to generate markdown for README
 function generateMarkdown(userInputs) {
-  let toC = "## Table of Contents";
+  let toC = `## Table of Contents`;
 
-  if (userInputs.installation !== "") { 
-    toC += `
-    [Installation](#installation)` 
+  if (userInputs.installation !== "") { toC += `
+  * [Installation](#installation)` 
   };
 
-  if (userInputs.usage !== "") {
-    toC += `
-    [Usage](#usage)`
+  if (userInputs.usage !== "") { toC += `
+  * [Usage](#usage)`
   };
 
-  if (userInputs.contributing !== "") {
-    toC += `
-    [Contributing](#contributing)`
+  if (userInputs.contributing !== "") { toC += `
+  * [Contributing](#contributing)`
   };
   
-  if (userInputs.tests !== "") {
-    toC += `
-    [Tests](#tests)`
+  if (userInputs.tests !== "") { toC += `
+  * [Tests](#tests)`
   };
 
-  if (userInputs.questions !== "") {
-    toC += `
-    [Questions](#questions)`
+  if (userInputs.questions !== "") { toC += `
+  * [Questions](#questions)`
   };
   
 
