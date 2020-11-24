@@ -3,7 +3,7 @@
 
   ![GitHub](https://img.shields.io/github/license/k1te-m/courseWork_07_readMeGenerator)![GitHub top language](https://img.shields.io/github/languages/top/k1te-m/courseWork_07_readMeGenerator)
 
-  ## Descripton
+  ## Description
   A command line application that takes user inputs and creates a professional README file for your repository. Utilizes the inquirer module along with a custom generateMarkdown module to apply proper formatting to user inputs.
 
   ## Table of Contents
@@ -22,9 +22,10 @@
 
   *Examples of project use:*
 
-  Please see the video below:
-
-  ![DEMO](assets/README_Generator_Demo_GIF.gif)
+  ![Demo](assets/README_Generator_Demo_GIF.gif)
+  
+  *Link to video:*
+  [Demo](https://drive.google.com/file/d/1OwVSuL9prGJ7swX0oI11ToC7GjbciFfT/view)
 
   ## Contributing
 
