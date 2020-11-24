@@ -29,7 +29,7 @@ function generateMarkdown(userInputs) {
 
   ![GitHub](https://img.shields.io/github/license/${userInputs.username}/${userInputs.repo})![GitHub top language](https://img.shields.io/github/languages/top/${userInputs.username}/${userInputs.repo})
 
-  ## Descripton
+  ## Description
   ${userInputs.description}
 
   `;
